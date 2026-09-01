@@ -2,6 +2,7 @@ from flask import Flask, render_template, request, redirect, url_for
 import os
 import json
 
+
 workdir = os.getcwd()
 staticdir = os.path.join(workdir, 'static')
 print(workdir, staticdir)
