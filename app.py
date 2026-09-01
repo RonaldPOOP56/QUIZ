@@ -22,6 +22,6 @@ def create_quiz():
     return render_template('/portals/create.html')
 
 
-print("Hello World")
+
 if __name__ == '__main__':
     app.run(debug=True)
